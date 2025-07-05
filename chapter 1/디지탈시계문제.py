@@ -29,6 +29,17 @@ print(f'디지탈 시계에서 30개의 세그먼트를 켜는 경우는 총 {co
 
 
 
+N = 30
 
+def check(num) :
+    light = [6, 2, 5, 5, 4, 5, 6, 3, 7, 6]
+    return light[num // 10] + light[num % 10]
 
-    
+count = 0
+for i in range(24) :
+    for j in range(60) :
+        for k in range(60) :
+            if check(i) + check(j) + check(k) == N :
+                count += 1
+
+print(f'디지탈 시계에서 {N}개의 세그먼트를 켜는 경우는 총 {count}가지입니다.')
