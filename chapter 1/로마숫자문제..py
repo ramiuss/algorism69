@@ -44,4 +44,6 @@ count = 0
 for k in result :
     if len(k) == 12 :
         count += 1
-print(f'로마 숫자의 길이가 12 이상인 경우는 {count}개입니다.')
+print(f'로마 숫자의 길이가 12 개인 경우는 {count}개입니다.')
+
+
