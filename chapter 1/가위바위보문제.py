@@ -41,13 +41,15 @@
 # print(count) 
 
 # 조합을 사용해서 푸는 방법
-n = 4
-count = 0
-for l in range(0, n + 1) :
-    for r in range(l, n + 1) :
-        all = [l, r - l, n - r]  # 왼쪽에서 부터 l(가위를 내고 바위를 낸 사이의 구분) 만큼 이동하면 r(바위를 낸 사이의 구분) 만큼 이동하고, n - r 만큼 보자기를 낸다.
-        print(all)
-        if all.count(max(all)) == 1 :
-            count += 1
+# n = 4
+# count = 0
+# for l in range(0, n + 1) :
+#     for r in range(l, n + 1) :
+#         all = [l, r - l, n - r]  # 왼쪽에서 부터 l(가위를 내고 바위를 낸 사이의 구분) 만큼 이동하면 r(바위를 낸 사이의 구분) 만큼 이동하고, n - r 만큼 보자기를 낸다.
+#         print(all)
+#         if all.count(max(all)) == 1 :
+#             count += 1
 
-print(count)
+# print(count)
+
+
