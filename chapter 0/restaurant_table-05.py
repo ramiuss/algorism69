@@ -15,3 +15,4 @@ print(graph(total, 0))
 
 end_time = time.time()
 print("Execution time:", end_time - start_time, "seconds")
+
